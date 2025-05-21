@@ -4,17 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kirre Website</title>
-    <!-- ?============> Wow js ========= -->
+    <!-- ?============> Animated css ============= -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
-    <!-- ?============> fontawesome ========= -->
+    <!-- ?=============> fontawesome ============= -->
     <link rel="stylesheet" href="./css/all.min.css" />
-    <!--? =========> BootstrapCSS ========= -->
+    <!--? =============> BootstrapCSS =========== -->
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <!--? ================> main Style css -->
+    <!--? =============> main Style css ========= -->
     <link rel="stylesheet" href="./css/style.css" />
+    <!--? =============> icon ================= -->
+    <link rel="icon" href="./images/download.svg" />
   </head>
   <body>
     <!-- ?============> navbar ========= -->
@@ -163,7 +165,493 @@
       </div>
     </section>
 
-    <!-- ?============> Blog ================ -->
+    <!-- ?=========================> Our Clients ============================ -->
+    <section id="client" class="bg-light py-5">
+      <div class="container">
+        <div class="titl text-center">
+          <h2>Our <span class="fw-semibold">Client</span></h2>
+          <p class="text-muted max-w500 mx-auto">
+            It is a long established fact that a reader will be of a page when
+            established fact looking at its layout.
+          </p>
+        </div>
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div
+                class="myslider d-flex justify-content-center align-items-center flex-column my-4"
+              >
+                <i class="fa-solid fa-quote-right main-color fs-1"></i>
+                <img
+                  src="./images/testi-1.jpg"
+                  class="rounded-circle img-thumbnail my-4"
+                  alt="testi-1"
+                />
+                <p class="text-muted w-50 text-center mx-auto fst-italic">
+                  " The point of using Lorem Ipsum is that it has a more-or-less
+                  normal distribution of letters, as opposed to using 'Content
+                  here."
+                </p>
+                <p>- Ebony verty, <span class="fw-semibold">Envato</span></p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div
+                class="myslider d-flex justify-content-center align-items-center flex-column my-4"
+              >
+                <i class="fa-solid fa-quote-right main-color fs-1"></i>
+                <img
+                  src="./images/testi-2.jpg"
+                  class="rounded-circle img-thumbnail my-4"
+                  alt="testi-2"
+                />
+                <p class="text-muted w-50 text-center mx-auto fst-italic">
+                  " The point of using Lorem Ipsum is that it has a more-or-less
+                  normal distribution of letters, as opposed to using 'Content
+                  here."
+                </p>
+                <p>- Ebony verty, <span class="fw-semibold">Envato</span></p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div
+                class="myslider d-flex justify-content-center align-items-center flex-column my-4"
+              >
+                <i class="fa-solid fa-quote-right main-color fs-1"></i>
+                <img
+                  src="./images/testi-3.jpg"
+                  class="rounded-circle img-thumbnail my-4"
+                  alt="testi-3"
+                />
+                <p class="text-muted w-50 text-center mx-auto fst-italic">
+                  " The point of using Lorem Ipsum is that it has a more-or-less
+                  normal distribution of letters, as opposed to using 'Content
+                  here."
+                </p>
+                <p>- Ebony verty, <span class="fw-semibold">Envato</span></p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ?=========================> Portfolio ============================== -->
+    <section id="portfolio" class="py-5">
+      <div class="container">
+        <div class="title text-center">
+          <h2 class="">Our <span class="fw-semibold">Portfolio</span></h2>
+          <p class="text-muted max-w500 mx-auto">
+            It is a long established fact that a reader will be of a page when
+            established fact looking at its layout.
+          </p>
+        </div>
+
+        <div>
+          <ul
+            class="nav nav-pills mb-3 d-flex justify-content-center align-items-center"
+            id="pills-tab"
+            role="tablist"
+          >
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link active"
+                id="pills-all-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-all"
+                type="button"
+                role="tab"
+                aria-controls="pills-all"
+                aria-selected="true"
+              >
+                all
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-Seo-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-Seo"
+                type="button"
+                role="tab"
+                aria-controls="pills-Seo"
+                aria-selected="false"
+              >
+                Seo
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-WebDesign-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-WebDesign"
+                type="button"
+                role="tab"
+                aria-controls="pills-WebDesign"
+                aria-selected="false"
+              >
+                WebDesign
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-Work-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-Work"
+                type="button"
+                role="tab"
+                aria-controls="pills-Work"
+                aria-selected="false"
+              >
+                Work
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-wordpress-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-wordpress"
+                type="button"
+                role="tab"
+                aria-controls="pills-wordpress"
+                aria-selected="false"
+              >
+                wordpress
+              </button>
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="pills-all"
+              role="tabpanel"
+              aria-labelledby="pills-all-tab"
+            >
+              <div class="row">
+                <div
+                  class="col-lg-4 col-md-6 animate__animated  animate__fadeInRight"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  <div class="work">
+                    <figure class="position-relative overflow-hidden rounded-3">
+                      <img
+                        src="./images/1.jpg"
+                        alt="portfolio"
+                        class="w-100 rounded-3"
+                      />
+                      <figcaption class="text-center w-100 h-100 d-flex justify-content-center align-items-center flex-column position-absolute start-0 top-0  rounded-3">
+                        <div class="img-layer">
+                          <p class="text-white">Category</p>
+                          <h3 class="text-white">Project Title</h3>
+                        </div>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+                  <div
+                  class="col-lg-4 col-md-6 animate__animated  animate__fadeInRight"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  <div class="work">
+                    <figure class="position-relative overflow-hidden rounded-3">
+                      <img
+                        src="./images/2.jpg"
+                        alt="portfolio"
+                        class="w-100 rounded-3"
+                      />
+                      <figcaption class="text-center w-100 h-100 d-flex justify-content-center align-items-center flex-column position-absolute start-0 top-0  rounded-3">
+                        <div class="img-layer">
+                          <p class="text-white">Category</p>
+                          <h3 class="text-white">Project Title</h3>
+                        </div>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+                  <div
+                  class="col-lg-4 col-md-6"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  <div class="work">
+                    <figure class="position-relative overflow-hidden rounded-3">
+                      <img
+                        src="./images/3.jpg"
+                        alt="portfolio"
+                        class="w-100 rounded-3"
+                      />
+                      <figcaption class="text-center w-100 h-100 d-flex justify-content-center align-items-center flex-column position-absolute start-0 top-0  rounded-3">
+                        <div class="img-layer">
+                          <p class="text-white">Category</p>
+                          <h3 class="text-white">Project Title</h3>
+                        </div>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div
+                  class="col-lg-4 col-md-6"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  <div class="work">
+                    <figure class="position-relative overflow-hidden rounded-3">
+                      <img
+                        src="./images/4.jpg"
+                        alt="portfolio"
+                        class="w-100 rounded-3"
+                      />
+                      <figcaption class="text-center w-100 h-100 d-flex justify-content-center align-items-center flex-column position-absolute start-0 top-0  rounded-3">
+                        <div class="img-layer">
+                          <p class="text-white">Category</p>
+                          <h3 class="text-white">Project Title</h3>
+                        </div>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+                  <div
+                  class="col-lg-4 col-md-6 animate__animated  animate__fadeInRight"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  <div class="work">
+                    <figure class="position-relative overflow-hidden rounded-3">
+                      <img
+                        src="./images/5.jpg"
+                        alt="portfolio"
+                        class="w-100 rounded-3"
+                      />
+                      <figcaption class="text-center w-100 h-100 d-flex justify-content-center align-items-center flex-column position-absolute start-0 top-0  rounded-3">
+                        <div class="img-layer">
+                          <p class="text-white">Category</p>
+                          <h3 class="text-white">Project Title</h3>
+                        </div>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+                  <div
+                  class="col-lg-4 col-md-6 animate__animated  animate__fadeInRight"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  <div class="work">
+                    <figure class="position-relative overflow-hidden rounded-3">
+                      <img
+                        src="./images/6.jpg"
+                        alt="portfolio"
+                        class="w-100 rounded-3"
+                      />
+                      <figcaption class="text-center w-100 h-100 d-flex justify-content-center align-items-center flex-column position-absolute start-0 top-0  rounded-3">
+                        <div class="img-layer">
+                          <p class="text-white">Category</p>
+                          <h3 class="text-white">Project Title</h3>
+                        </div>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-Seo"
+              role="tabpanel"
+              aria-labelledby="pills-Seo-tab"
+            >
+               <div class="row">
+                <div
+                  class="col-lg-4 col-md-6 animate__animated  animate__fadeInRight"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  <div class="work">
+                    <figure class="position-relative overflow-hidden rounded-3">
+                      <img
+                        src="./images/1.jpg"
+                        alt="portfolio"
+                        class="w-100 rounded-3"
+                      />
+                      <figcaption class="text-center w-100 h-100 d-flex justify-content-center align-items-center flex-column position-absolute start-0 top-0  rounded-3">
+                        <div class="img-layer">
+                          <p class="text-white">Category</p>
+                          <h3 class="text-white">Project Title</h3>
+                        </div>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+                  <div
+                  class="col-lg-4 col-md-6 animate__animated  animate__fadeInRight"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  <div class="work">
+                    <figure class="position-relative overflow-hidden rounded-3">
+                      <img
+                        src="./images/2.jpg"
+                        alt="portfolio"
+                        class="w-100 rounded-3"
+                      />
+                      <figcaption class="text-center w-100 h-100 d-flex justify-content-center align-items-center flex-column position-absolute start-0 top-0  rounded-3">
+                        <div class="img-layer">
+                          <p class="text-white">Category</p>
+                          <h3 class="text-white">Project Title</h3>
+                        </div>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-WebDesign"
+              role="tabpanel"
+              aria-labelledby="pills-WebDesign-tab"
+            >
+               <div class="row">
+                  <div
+                  class="col-lg-4 col-md-6"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  <div class="work">
+                    <figure class="position-relative overflow-hidden rounded-3">
+                      <img
+                        src="./images/3.jpg"
+                        alt="portfolio"
+                        class="w-100 rounded-3"
+                      />
+                      <figcaption class="text-center w-100 h-100 d-flex justify-content-center align-items-center flex-column position-absolute start-0 top-0  rounded-3">
+                        <div class="img-layer">
+                          <p class="text-white">Category</p>
+                          <h3 class="text-white">Project Title</h3>
+                        </div>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-Work"
+              role="tabpanel"
+              aria-labelledby="pills-Work-tab"
+            >
+               <div class="row">
+                  <div
+                  class="col-lg-4 col-md-6"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  <div class="work">
+                    <figure class="position-relative overflow-hidden rounded-3">
+                      <img
+                        src="./images/5.jpg"
+                        alt="portfolio"
+                        class="w-100 rounded-3"
+                      />
+                      <figcaption class="text-center w-100 h-100 d-flex justify-content-center align-items-center flex-column position-absolute start-0 top-0  rounded-3">
+                        <div class="img-layer">
+                          <p class="text-white">Category</p>
+                          <h3 class="text-white">Project Title</h3>
+                        </div>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-wordpress"
+              role="tabpanel"
+              aria-labelledby="pills-wordpress-tab"
+            >
+               <div class="row">
+                  <div
+                  class="col-lg-4 col-md-6"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  <div class="work">
+                    <figure class="position-relative overflow-hidden rounded-3">
+                      <img
+                        src="./images/6.jpg"
+                        alt="portfolio"
+                        class="w-100 rounded-3"
+                      />
+                      <figcaption class="text-center w-100 h-100 d-flex justify-content-center align-items-center flex-column position-absolute start-0 top-0  rounded-3">
+                        <div class="img-layer">
+                          <p class="text-white">Category</p>
+                          <h3 class="text-white">Project Title</h3>
+                        </div>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ?===========================> Blog ================================== -->
     <section id="blog" class="bg-light py-5">
       <div class="container">
         <div class="row title text-center">

@@ -256,3 +256,57 @@ a {
   color: var(--main-color);
   border: 1px solid var(--main-color);
 }
+
+/* ?==================== client ====================== */
+.carousel-indicators [data-bs-target] {
+  background-color: var(--main-color);
+  border: 1px solid var(--main-color);
+  border-radius: 10px;
+  width: 15px;
+  height: 10px;
+}
+
+.carousel-indicators .active {
+  width: 20px;
+}
+
+/* ?==================== portfolio ====================== */
+
+#portfolio .nav-pills .nav-link {
+  color: #000;
+}
+#portfolio .nav-pills .nav-link.active {
+  background-color: var(--main-color);
+  color: #fff;
+}
+
+#portfolio .work figure {
+  cursor: pointer;
+}
+#portfolio .work figure img {
+  transition: var(--main-transition);
+}
+
+#portfolio .work figure:hover img {
+  transform: scale(1.2);
+}
+
+#portfolio .work figure figcaption {
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  transition: var(--main-transition);
+}
+
+#portfolio .work figure:hover figcaption {
+  opacity: 1;
+}
+
+#portfolio .work figure figcaption .img-layer {
+  transition: var(--main-transition);
+  position: absolute;
+  top: 100%;
+}
+
+#portfolio .work figure:hover .img-layer {
+  top: 35%;
+}
