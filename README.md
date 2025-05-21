@@ -34,18 +34,18 @@ A modern, responsive personal portfolio website built using **HTML**, **Bootstra
 ```bash
 kirre-portfolio/
 ├── css/
-│   ├── all.min.css            # Font Awesome
-│   ├── bootstrap.min.css      # Bootstrap CSS
-│   └── style.css              # Custom styles
+│   ├── all.min.css           
+│   ├── bootstrap.min.css    
+│   └── style.css              
 ├── images/
-│   ├── logo-dark.png          # Site logo
-│   ├── about.jpg              # About image
-│   ├── testi-1.jpg            # Testimonials images
-│   └── download.svg           # Favicon
-├── index.html                 # Main HTML file
+│   ├── logo-dark.png          
+│   ├── about.jpg             
+│   ├── testi-1.jpg            
+│   └── download.svg           
+├── index.html                 
 ├── js/
-│   └── script.js              # Custom JS (if needed)
-└── README.md                  # This file
+│   └── script.js              
+└── README.md                 
 
 ---
 git clone https://github.com/Yomna-Elshorbagy/Kerri.git
